@@ -14,26 +14,53 @@ body
 		h2 '문서'
 		ul
 			li
-				a href='https://github.com/Hanul/UPPERCASE#설치하기' target='_blank' '설치하기'
+				a href='https://github.com/Hanul/UPPERCASE/blob/master/DOC/INSTALL.md' target='_blank' '설치하기'
 			li
-				a href='https://github.com/Hanul/UPPERCASE/blob/master/DOC/TUTORIAL.md' '튜토리얼'
+				a href='https://github.com/Hanul/UPPERCASE/blob/master/DOC/TUTORIAL.md' target='_blank' '튜토리얼'
 			li
-				a href='https://github.com/Hanul/UPPERCASE/blob/master/DOC/GUIDE.md' '가이드'
+				a href='https://github.com/Hanul/UPPERCASE/blob/master/DOC/GUIDE.md' target='_blank' '가이드'
 			li
-				a href='https://github.com/Hanul/UPPERCASE/blob/master/API/README.md' 'API 문서'
+				a href='https://github.com/Hanul/UPPERCASE/blob/master/API/README.md' target='_blank' 'API 문서'
 			li
-				a href='https://github.com/Hanul/UPPERCASE/blob/master/DOC/RELEASE.md' '릴리즈 노트'
+				a href='https://github.com/Hanul/UPPERCASE/blob/master/DOC/RELEASE.md' target='_blank' '릴리즈 노트'
 		h2 '링크'
 		ul
 			li
-				a href='https://github.com/Hanul/UPPERCASE' 'GitHub 저장소'
+				a href='https://github.com/Hanul/UPPERCASE' target='_blank' 'GitHub 저장소'
 			li
-				a href='https://github.com/Hanul/UPPERCASE/issues' 'GitHub Issues'
+				a href='https://github.com/Hanul/UPPERCASE/issues' target='_blank' 'GitHub Issues'
 			li
-				a href='http://blog.uppercase.io' 'UPPERCASE 블로그'
+				a href='http://blog.uppercase.io' target='_blank' 'UPPERCASE 블로그'
 			li
-				a href='https://www.facebook.com/groups/uppercase/' 'UPPERCASE 페이스북 유저 그룹'
+				a href='https://www.facebook.com/groups/uppercase/' target='_blank' 'UPPERCASE 페이스북 유저 그룹'
+			li
+				a href='https://box.uppercase.io' target='_blank' 'UPPERCASE BOX 저장소'
 		h2 '문의'
 		ul
 			li
 				a href='mailto:hanul@hanul.me' 'hanul@hanul.me'
+				
+		h2 'box.uppercase.io'
+		p
+			'<a href="https://box.uppercase.io" target="_blank">UPPERCASE BOX 저장소</a>에서 다양한 BOX를 만나보세요!'
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

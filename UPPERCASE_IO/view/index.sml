@@ -34,11 +34,19 @@ body
 			li
 				a href='https://www.facebook.com/groups/uppercase/' target='_blank' 'UPPERCASE 페이스북 유저 그룹'
 			li
-				a href='http://box.uppercase.io' target='_blank' 'UPPERCASE BOX 저장소'
+				a href='https://box.uppercase.io' target='_blank' 'UPPERCASE BOX 저장소'
 		h2 '문의'
 		ul
 			li
 				a href='mailto:hanul@hanul.me' 'hanul@hanul.me'
+				
+		h2 'box.uppercase.io'
+		p
+			'<a href="https://box.uppercase.io" target="_blank">UPPERCASE BOX 저장소</a>에서 다양한 BOX를 만나보세요!'
+		
+		
+		a href='https://github.com/Hanul/UPPERCASE' target='_blank'
+			img style='position: absolute; top: 0; right: 0; border: 0;' src='https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67'
 
 				
 				

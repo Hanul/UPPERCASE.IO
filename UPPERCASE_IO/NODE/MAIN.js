@@ -1,21 +1,18 @@
 UPPERCASE_IO.MAIN = METHOD({
 
-	run : function(addRequestListener, addPreprocessor) {
-		'use strict';
+	run : (addRequestListener, addPreprocessor) => {
 		
-		var
-		//IMPORT: Less
-		Less = require('less');
+		let Less = require('less');
 		
-		addRequestListener(SML_BRIDGE({
+		addRequestListener(SML.Bridge({
 			rootPath : './UPPERCASE_IO/view'
 		}).requestListener);
 		
 		addPreprocessor({
 			extension : 'less',
-			preprocessor : function(content, response) {
+			preprocessor : (content, response) => {
 				
-				Less.render(content, function(error, output) {
+				Less.render(content, (error, output) => {
 					response({
 						content : output.css,
 						contentType : 'text/css',
