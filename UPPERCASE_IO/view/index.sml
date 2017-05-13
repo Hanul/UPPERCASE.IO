@@ -2,7 +2,7 @@ meta viewport='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum
 
 link rel='stylesheet' href='//fonts.googleapis.com/earlyaccess/notosanskr.css'
 link rel='stylesheet' href='/R/style.less'
-link rel='stylesheet' href='/R/axicon/axicon.min.css'
+link rel='stylesheet' href='/R/css/font-awesome.min.css'
 
 title 'UPPERCASE'
 
