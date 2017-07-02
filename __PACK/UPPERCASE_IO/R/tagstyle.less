@@ -1,0 +1,96 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+body, html {
+	font-family: 'Noto Sans KR';
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  &:hover {
+    color: #23527c;
+    text-decoration: underline;
+  }
+}
+
+pre {
+  font-family: 'Noto Sans KR';
+}
+
+header {
+  background-color: #292b2c;
+  font-size: 16px;
+	ul {
+    padding: 8px 16px;
+    margin: 0;
+    li {
+      float: left;
+      padding: 8px;
+      list-style: none;
+      a {
+        color: #fff;
+      }
+    }
+    &:nth-child(1) {
+      float: left;
+      li:first-child {
+        font-weight: bold;
+        margin-right: 16px;
+        padding: 8px 0;
+      }
+    }
+    &:nth-child(2) {
+      float: right;
+    }
+	}
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+main {
+  width: 1110px;
+  padding: 15px;
+  margin: auto;
+  
+  form {
+    div {
+      margin-bottom: 12px
+    }
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input:not([type='checkbox']) {
+      margin-top: 5px;
+      display: block;
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      
+      &[type='submit'] {
+        font-family: 'Noto Sans KR';
+        width: auto;
+        cursor: pointer;
+        background-color: #fff;
+        &:hover {
+          background-color: #d4d4d4;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  border-top: 1px solid #ddd;
+	width: 1110px;
+  margin: auto;
+  padding: 16px 0;
+}
