@@ -1,5 +1,8 @@
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 
+@nopc: ~'(max-width: 1149px)';
+@pc: ~'(min-width: 1150px)';
+
 body, html {
 	font-family: 'Noto Sans KR';
   padding: 0;
@@ -23,29 +26,52 @@ pre {
 header {
   background-color: #292b2c;
   font-size: 16px;
+  
 	ul {
-    padding: 8px 16px;
+    padding: 0 16px;
     margin: 0;
+    
     li {
-      float: left;
-      padding: 8px;
+      @media @pc {
+        float: left;
+      }
       list-style: none;
+      
       a {
+        @media @pc {
+          float: left;
+        }
+        @media @nopc {
+          display: block;
+        }
+        padding: 16px;
         color: #fff;
+        &:hover {
+          color: #fff;
+          text-decoration: none;
+        }
       }
     }
+    
     &:nth-child(1) {
-      float: left;
+      @media @pc {
+        float: left;
+      }
       li:first-child {
         font-weight: bold;
         margin-right: 16px;
-        padding: 8px 0;
       }
     }
     &:nth-child(2) {
-      float: right;
+      @media @pc {
+        float: right;
+      }
+      @media @nopc {
+        background-color: #373a3c;
+      }
     }
 	}
+	
   &:after {
     content: '';
     display: block;
@@ -57,6 +83,11 @@ main {
   width: 1110px;
   padding: 15px;
   margin: auto;
+  
+  @media @nopc {
+    width: 90%;
+    padding: 15px 0;
+  }
   
   form {
     div {
@@ -74,6 +105,11 @@ main {
       border: 1px solid #ccc;
       border-radius: 4px;
       box-sizing: border-box;
+      
+      @media @nopc {
+        width: 90%;
+        padding: 10px 0;
+      }
       
       &[type='submit'] {
         font-family: 'Noto Sans KR';
@@ -93,4 +129,18 @@ footer {
 	width: 1110px;
   margin: auto;
   padding: 16px 0;
+  
+  @media @nopc {
+    width: 90%;
+    padding: 16px 0;
+  }
+}
+
+// Markdown을 사용하는 경우
+.markdown-body {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Noto Sans KR';
+  font-size: 14px;
 }
